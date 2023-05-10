@@ -48,6 +48,31 @@ public class Ramenorant {
             event.accept(ModBlocks.NETHERRACK_BLACK_OPAL_ORE);
             event.accept(ModBlocks.ENDSTONE_BLACK_OPAL_ORE);
         }
+
+        if(event.getTab() == ModCreativeModeTabs.RAMENORANT_GUNS_TAB) {
+            event.accept(ModItems.CLASSIC);
+            event.accept(ModItems.SHORTY);
+            event.accept(ModItems.FRENZY);
+            event.accept(ModItems.GHOST);
+            event.accept(ModItems.SHERIFF);
+            event.accept(ModItems.STINGER);
+            event.accept(ModItems.SPECTRE);
+            event.accept(ModItems.BUCKY);
+            event.accept(ModItems.JUDGE);
+            event.accept(ModItems.BULLDOG);
+            event.accept(ModItems.GUARDIAN);
+            event.accept(ModItems.PHANTOM);
+            event.accept(ModItems.VANDAL);
+            event.accept(ModItems.MARSHALL);
+            event.accept(ModItems.OPERATOR);
+            event.accept(ModItems.ARES);
+            event.accept(ModItems.ODIN);
+            event.accept(ModItems.KNIFE);
+        }
+
+        if(event.getTab() == ModCreativeModeTabs.RAMENORANT_ABILITIES_TAB) {
+            event.accept(ModItems.KNIFE);
+        }
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

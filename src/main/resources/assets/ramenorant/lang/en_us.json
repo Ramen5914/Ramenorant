@@ -1,10 +1,39 @@
 {
   "item.ramenorant.black_opal": "Black Opal",
   "item.ramenorant.raw_black_opal": "Raw Black Opal",
+
   "block.ramenorant.black_opal_block": "Block of Black Opal",
   "block.ramenorant.black_opal_ore": "Black Opal Ore",
   "block.ramenorant.deepslate_black_opal_ore": "Deepslate Black Opal Ore",
   "block.ramenorant.netherrack_black_opal_ore": "Netherrack Black Opal Ore",
   "block.ramenorant.endstone_black_opal_ore": "Endstone Black Opal Ore",
-  "creativemodetab.ramenorant_tab": "Ramenorant"
+
+  "item.ramenorant.classic": "Classic",
+  "item.ramenorant.shorty": "Shorty",
+  "item.ramenorant.frenzy": "Frenzy",
+  "item.ramenorant.ghost": "Ghost",
+  "item.ramenorant.sheriff": "Sheriff",
+
+  "item.ramenorant.stinger": "Stinger",
+  "item.ramenorant.spectre": "Spectre",
+
+  "item.ramenorant.bucky": "Bucky",
+  "item.ramenorant.judge": "Judge",
+
+  "item.ramenorant.bulldog": "Bulldog",
+  "item.ramenorant.guardian": "Guardian",
+  "item.ramenorant.phantom": "Phantom",
+  "item.ramenorant.vandal": "Vandal",
+
+  "item.ramenorant.marshall": "Marshall",
+  "item.ramenorant.operator": "Operator",
+
+  "item.ramenorant.ares": "Ares",
+  "item.ramenorant.odin": "Odin",
+
+  "item.ramenorant.knife": "Knife",
+
+  "creativemodetab.ramenorant_tab": "Ramenorant",
+  "creativemodetab.ramenorant_guns_tab": "Ramenorant Guns",
+  "creativemodetab.ramenorant_abilities_tab": "Ramenorant Abilities"
 }
