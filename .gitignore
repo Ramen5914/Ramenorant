@@ -34,5 +34,4 @@ replay_pid*
 /run/
 
 # Other
-*/.DS_STORE
-.DS_Store
+*.DS_STORE
