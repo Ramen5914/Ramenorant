@@ -24,14 +24,14 @@ hs_err_pid*
 replay_pid*
 
 # IntelliJ IDEA
-.idea
+/.idea/
 
 # Gradle files
-.gradle
+/.gradle/
 
 # Java build files
-build
-run
+/build/
+/run/
 
 # Other
 */.DS_STORE
