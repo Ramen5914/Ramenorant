@@ -12,7 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.ramen5914.ramenorant.Ramenorant;
-import net.ramen5914.ramenorant.item.ModItems;
+import net.ramen5914.ramenorant.item.ModGuns;
 
 import java.util.function.Supplier;
 
@@ -47,7 +47,7 @@ public class ModBlocks {
     }
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
+        return ModGuns.GUNS.register(name, () -> new BlockItem(block.get(),
                 new Item.Properties()));
     }
 
