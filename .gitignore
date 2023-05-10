@@ -32,6 +32,7 @@ replay_pid*
 # Java build files
 build
 run/*
+run
 
 # Other
 */.DS_STORE
