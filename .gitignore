@@ -34,4 +34,5 @@ build
 run
 
 # Other
-.DS_STORE
+*/.DS_STORE
+.DS_Store
