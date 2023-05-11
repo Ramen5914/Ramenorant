@@ -7,6 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.ramen.ramenorant.item.ModAbilities;
 import net.ramen.ramenorant.item.ModGuns;
 
 @Mod.EventBusSubscriber(modid = Ramenorant.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -22,11 +23,11 @@ public class ModCreativeModeTabs {
                         .title(Component.translatable("creativemodetab.ramenorant_tab")));
 
         RAMENORANT_GUNS_TAB = event.registerCreativeModeTab(new ResourceLocation(Ramenorant.MOD_ID, "ramenorant_guns_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModGuns.BLACK_OPAL.get()))
+                builder -> builder.icon(() -> new ItemStack(ModGuns.CLASSIC.get()))
                         .title(Component.translatable("creativemodetab.ramenorant_guns_tab")));
 
         RAMENORANT_ABILITIES_TAB = event.registerCreativeModeTab(new ResourceLocation(Ramenorant.MOD_ID, "ramenorant_abilities_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModGuns.BLACK_OPAL.get()))
+                builder -> builder.icon(() -> new ItemStack(ModAbilities.LEER.get()))
                         .title(Component.translatable("creativemodetab.ramenorant_abilities_tab")));
     }
 }
