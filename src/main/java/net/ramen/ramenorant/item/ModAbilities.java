@@ -92,7 +92,7 @@ public class ModAbilities {
     public static final RegistryObject<Item> BLADE_STORM = ABILITIES.register("blade_storm",
             () -> new Item(new Item.Properties()));
     // Kay/o
-    public static final RegistryObject<Item> FRAGMENT = ABILITIES.register("fragment",
+    public static final RegistryObject<Item> FRAG_MENT = ABILITIES.register("frag_ment",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FLASH_DRIVE = ABILITIES.register("flash_drive",
             () -> new Item(new Item.Properties()));
@@ -132,7 +132,7 @@ public class ModAbilities {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CURVEBALL = ABILITIES.register("curveball",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> HOT_HANDS = ABILITIES.register("hots_hands",
+    public static final RegistryObject<Item> HOT_HANDS = ABILITIES.register("hot_hands",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RUN_IT_BACK = ABILITIES.register("run_it_back",
             () -> new Item(new Item.Properties()));
