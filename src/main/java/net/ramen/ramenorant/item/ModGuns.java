@@ -1,11 +1,11 @@
-package net.ramen5914.ramenorant.item;
+package net.ramen.ramenorant.item;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.ramen5914.ramenorant.Ramenorant;
+import net.ramen.ramenorant.Ramenorant;
 
 public class ModGuns {
     public static final DeferredRegister<Item> GUNS =
