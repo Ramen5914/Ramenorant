@@ -1,4 +1,4 @@
-package net.ramen5914.ramenorant;
+package net.ramen.ramenorant;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -10,9 +10,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.ramen5914.ramenorant.block.ModBlocks;
-import net.ramen5914.ramenorant.item.ModGuns;
-import net.ramen5914.ramenorant.item.ModAbilities;
+import net.ramen.ramenorant.item.ModAbilities;
+import net.ramen.ramenorant.block.ModBlocks;
+import net.ramen.ramenorant.item.ModGuns;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -26,6 +26,7 @@ public class Ramenorant {
     public Ramenorant() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModAbilities.register(modEventBus);
         ModGuns.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -51,29 +52,30 @@ public class Ramenorant {
         }
 
         if(event.getTab() == ModCreativeModeTabs.RAMENORANT_GUNS_TAB) {
+            // Sidearms
             event.accept(ModGuns.CLASSIC);
             event.accept(ModGuns.SHORTY);
             event.accept(ModGuns.FRENZY);
             event.accept(ModGuns.GHOST);
             event.accept(ModGuns.SHERIFF);
-
+            // Sub Machine Guns
             event.accept(ModGuns.STINGER);
             event.accept(ModGuns.SPECTRE);
-
+            // Shotguns
             event.accept(ModGuns.BUCKY);
             event.accept(ModGuns.JUDGE);
-
+            // Rifles
             event.accept(ModGuns.BULLDOG);
             event.accept(ModGuns.GUARDIAN);
             event.accept(ModGuns.PHANTOM);
             event.accept(ModGuns.VANDAL);
-
+            // Sniper Rifles
             event.accept(ModGuns.MARSHALL);
             event.accept(ModGuns.OPERATOR);
-
+            // Machine Guns
             event.accept(ModGuns.ARES);
             event.accept(ModGuns.ODIN);
-
+            // Melee
             event.accept(ModGuns.KNIFE);
         }
 
@@ -186,7 +188,6 @@ public class Ramenorant {
         }
     }
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
