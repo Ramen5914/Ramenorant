@@ -1,11 +1,11 @@
-package net.ramen5914.ramenorant.item;
+package net.ramen.ramenorant.item;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.ramen5914.ramenorant.Ramenorant;
+import net.ramen.ramenorant.Ramenorant;
 
 public class ModAbilities {
     public static final DeferredRegister<Item> ABILITIES =
@@ -49,7 +49,7 @@ public class ModAbilities {
     // Cypher
     public static final RegistryObject<Item> TRAPWIRE = ABILITIES.register("trapwire",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CYBER_CAGE = ABILITIES.register("cypher_cage",
+    public static final RegistryObject<Item> CYBER_CAGE = ABILITIES.register("cyber_cage",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SPYCAM = ABILITIES.register("spycam",
             () -> new Item(new Item.Properties()));
