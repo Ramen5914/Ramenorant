@@ -33,6 +33,111 @@
 
   "item.ramenorant.knife": "Knife",
 
+  "item.ramenorant.gravity_well": "Gravity Well",
+  "item.ramenorant.nova_pulse": "Nova Pulse",
+  "item.ramenorant.nebula": "Nebula",
+  "item.ramenorant.cosmic_divide": "Cosmic Divide",
+  
+  "item.ramenorant.aftershock": "Aftershock",
+  "item.ramenorant.flashpoint": "Flashpoint",
+  "item.ramenorant.fault_line": "Fault Line",
+  "item.ramenorant.rolling_thunder": "Rolling Thunder",
+
+  "item.ramenorant.incendiary": "Incendiary",
+  "item.ramenorant.stim_beacon": "Stim Beacon",
+  "item.ramenorant.sky_smoke": "Sky Smoke",
+  "item.ramenorant.orbital_strike": "Orbital Strike",
+
+  "item.ramenorant.trademark": "Trademark",
+  "item.ramenorant.headhunter": "Headhunter",
+  "item.ramenorant.rendezvous": "Rendezvous",
+  "item.ramenorant.tour_de_force": "Tour De Force",
+
+  "item.ramenorant.trapwire": "Trapwire",
+  "item.ramenorant.cyber_cage": "Cyber Cage",
+  "item.ramenorant.spycam": "Spycam",
+  "item.ramenorant.neural_theft": "Neural Theft",
+
+  "item.ramenorant.prowler": "Prowler",
+  "item.ramenorant.seize": "Seize",
+  "item.ramenorant.haunt": "Haunt",
+  "item.ramenorant.nightfall": "Nightfall",
+
+  "item.ramenorant.mosh_pit": "Mosh Pit",
+  "item.ramenorant.wingman": "Wingman",
+  "item.ramenorant.dizzy": "Dizzy",
+  "item.ramenorant.thrash": "Thrash",
+
+  "item.ramenorant.cascade": "Cascade",
+  "item.ramenorant.cove": "Cove",
+  "item.ramenorant.high_tide": "High Tide",
+  "item.ramenorant.reckoning": "Reckoning",
+
+  "item.ramenorant.cloudburst": "Cloudburst",
+  "item.ramenorant.updraft": "Updraft",
+  "item.ramenorant.tailwind": "Tailwind",
+  "item.ramenorant.blade_storm": "Blade Storm",
+
+  "item.ramenorant.frag_ment": "FRAG/ment",
+  "item.ramenorant.flash_drive": "FLASH/drive",
+  "item.ramenorant.zero_point": "ZERO/point",
+  "item.ramenorant.null_cmd": "NULL/cmd",
+
+  "item.ramenorant.alarmbot": "Alarmbot",
+  "item.ramenorant.nanoswarm": "Nanoswarm",
+  "item.ramenorant.turret": "Turret",
+  "item.ramenorant.lockdown": "Lockdown",
+
+  "item.ramenorant.fast_lane": "Fast Lane",
+  "item.ramenorant.relay_bolt": "Relay Bolt",
+  "item.ramenorant.high_gear": "High Gear",
+  "item.ramenorant.overdrive": "Overdrive",
+
+  "item.ramenorant.shrouded_step": "Shrouded Step",
+  "item.ramenorant.paranoia": "Paranoia",
+  "item.ramenorant.dark_cover": "Dark Cover",
+  "item.ramenorant.from_the_shadows": "From The Shadows",
+
+  "item.ramenorant.blaze": "Blaze",
+  "item.ramenorant.curveball": "Curveball",
+  "item.ramenorant.hot_hands": "Hot Hands",
+  "item.ramenorant.run_it_back": "Run It Back",
+
+  "item.ramenorant.boom_bot": "Boom Bot",
+  "item.ramenorant.blast_pack": "Blast Pack",
+  "item.ramenorant.paint_shells": "Paint Shells",
+  "item.ramenorant.showstopper": "Showstopper",
+
+  "item.ramenorant.leer": "Leer",
+  "item.ramenorant.devour": "Devour",
+  "item.ramenorant.dismiss": "Dismiss",
+  "item.ramenorant.empress": "Empress",
+
+  "item.ramenorant.barrier_orb": "Barrier Orb",
+  "item.ramenorant.slow_orb": "Slow Orb",
+  "item.ramenorant.healing_orb": "Healing Orb",
+  "item.ramenorant.resurrection": "Resurrection",
+
+  "item.ramenorant.regrowth": "Regrowth",
+  "item.ramenorant.trailblazer": "Trailblazer",
+  "item.ramenorant.guiding_light": "Guiding Light",
+  "item.ramenorant.seekers": "Seekers",
+
+  "item.ramenorant.owl_drone": "Owl Drone",
+  "item.ramenorant.shock_bolt": "Shock Bolt",
+  "item.ramenorant.recon_bolt": "Recon Bolt",
+  "item.ramenorant.hunters_fury": "Hunter's Fury",
+
+  "item.ramenorant.snake_bite": "Snake Bite",
+  "item.ramenorant.poison_cloud": "Poison Cloud",
+  "item.ramenorant.toxic_screen": "Toxic Screen",
+  "item.ramenorant.vipers_pit": "Viper's Pit",
+
+  "item.ramenorant.fakeout": "Fakeout",
+  "item.ramenorant.blindside": "Blindside",
+  "item.ramenorant.gatecrash": "Gatecrash",
+  "item.ramenorant.dimensional_drift": "Dimensional Drift",
+
   "creativemodetab.ramenorant_tab": "Ramenorant",
   "creativemodetab.ramenorant_guns_tab": "Ramenorant Guns",
   "creativemodetab.ramenorant_abilities_tab": "Ramenorant Abilities"
