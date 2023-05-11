@@ -126,7 +126,7 @@ public class Ramenorant {
             event.accept(ModAbilities.TAILWIND);
             event.accept(ModAbilities.BLADE_STORM);
             // Kay/o
-            event.accept(ModAbilities.FRAGMENT);
+            event.accept(ModAbilities.FRAG_MENT);
             event.accept(ModAbilities.FLASH_DRIVE);
             event.accept(ModAbilities.ZERO_POINT);
             event.accept(ModAbilities.NULL_CMD);
