@@ -1,42 +1,42 @@
-Don’t get in my way!
-Welcome to my world!
-Watch this!
-Get out of my way!
-Let’s go!
-Off your feet!
-Here comes the party!
-Fire in the hole!
-They will cower!
-The hunt begins!
-Come on, let’s go!
-Jokes over, you’re dead!
-Where is everyone hiding?
-I know EXACTLY where you are.
-Watch them run!
-Scatter!
-I am the hunter!
-Nowhere to run!
-Open up the sky!
-Prepare for hellfire!
-Your duty is not over!
-You will not kill my allies!
-Initiated!
-You should run!
-Seek them out!
-I’ve got your trail!
-I’ll handle this!
-Who’s next!
-World divided!
-You’re divided!
-No one walks away!
-You. Are. Powerless.
-They are so dead!
-You want to play? Let’s play!
-Here we go!
-Oy! I’m pissed!
-Face Your Fear!
-Nightmare take them!
-Let’s turn the tide!
-I suggest you move!
-It’s all you, lil’ homie!
-Oye! Monster on the loose!
+§2Don’t get in my way!
+§2Welcome to my world!
+§bWatch this!
+§bGet out of my way!
+§6Let’s go!
+§6Off your feet!
+§6Here comes the party!
+§6Fire in the hole!
+§5They will cower!
+§5The hunt begins!
+§6Come on, let’s go!
+§6Jokes over, you’re dead!
+§7Where is everyone hiding?
+§7I know EXACTLY where you are.
+§1Watch them run!
+§1Scatter!
+§bI am the hunter!
+§bNowhere to run!
+§6Open up the sky!
+§6Prepare for hellfire!
+§bYour duty is not over!
+§bYou will not kill my allies!
+§eInitiated!
+§eYou should run!
+§aSeek them out!
+§aI’ve got your trail!
+§9I’ll handle this!
+§9Who’s next!
+§5World divided!
+§5You’re divided!
+§9No one walks away!
+§9You. Are. Powerless.
+§6They are so dead!
+§6You want to play? Let’s play!
+§3Here we go!
+§3Oy! I’m pissed!
+§8Face Your Fear!
+§8Nightmare take them!
+§3Let’s turn the tide!
+§3I suggest you move!
+§aIt’s all you, lil’ homie!
+§aOye! Monster on the loose!
