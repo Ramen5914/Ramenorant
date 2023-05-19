@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.ramen.ramenorant.Ramenorant;
+import net.ramen.ramenorant.item.custom.Classic;
 
 public class ModGuns {
     public static final DeferredRegister<Item> GUNS =
@@ -21,7 +22,7 @@ public class ModGuns {
     // Actual things start here:
     // Pistols / Sidearms
     public static final RegistryObject<Item> CLASSIC = GUNS.register("classic",
-            () -> new Item(new Item.Properties()
+            () -> new Classic(new Item.Properties()
                     .stacksTo(1)
                     .rarity(Rarity.COMMON)
             ));
