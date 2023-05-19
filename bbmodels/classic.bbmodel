@@ -180562,7 +180562,8 @@
 			"anim_time_update": "",
 			"blend_weight": "",
 			"start_delay": "",
-			"loop_delay": ""
+			"loop_delay": "",
+			"animators": {}
 		},
 		{
 			"uuid": "f026614a-5675-9cb4-545c-f556b17742c4",
@@ -180577,7 +180578,8 @@
 			"anim_time_update": "",
 			"blend_weight": "",
 			"start_delay": "",
-			"loop_delay": ""
+			"loop_delay": "",
+			"animators": {}
 		},
 		{
 			"uuid": "1360c977-8689-bf7e-c86d-daeeb00dcd0f",
@@ -180592,7 +180594,107 @@
 			"anim_time_update": "",
 			"blend_weight": "",
 			"start_delay": "",
-			"loop_delay": ""
+			"loop_delay": "",
+			"animators": {}
+		},
+		{
+			"uuid": "15a6ae83-a661-9402-c4e9-84365c6f697d",
+			"name": "animation.classic.idle",
+			"loop": "loop",
+			"override": false,
+			"length": 2.25,
+			"snapping": 24,
+			"selected": true,
+			"saved": true,
+			"path": "/Users/ramen/Documents/GitHub/Ramenorant 1.19.2/src/main/resources/assets/ramenorant/animations/classic.animation.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "",
+			"animators": {
+				"e7efaef5-ad95-1ba7-5a74-660ece19106e": {
+					"name": "classic",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "da5d03a4-3b82-a0cb-3299-af558681d8b8",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"bezier_linked": true,
+							"bezier_left_time": [-0.1, -0.1, -0.1],
+							"bezier_left_value": [0, 0, 0],
+							"bezier_right_time": [0.1, 0.1, 0.1],
+							"bezier_right_value": [0, 0, 0]
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": -2,
+									"y": -3,
+									"z": -3
+								}
+							],
+							"uuid": "cdd2614f-ab0b-7d96-f888-64094722f727",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "linear",
+							"bezier_linked": true,
+							"bezier_left_time": [-0.1, -0.1, -0.1],
+							"bezier_left_value": [0, 0, 0],
+							"bezier_right_time": [0.1, 0.1, 0.1],
+							"bezier_right_value": [0, 0, 0]
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": 3,
+									"y": 3,
+									"z": 0
+								}
+							],
+							"uuid": "9145e5fb-d160-1cca-9750-f3f26c9fb5c9",
+							"time": 1.75,
+							"color": -1,
+							"interpolation": "linear",
+							"bezier_linked": true,
+							"bezier_left_time": [-0.1, -0.1, -0.1],
+							"bezier_left_value": [0, 0, 0],
+							"bezier_right_time": [0.1, 0.1, 0.1],
+							"bezier_right_value": [0, 0, 0]
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "004abb28-19d8-73f7-05a9-e310a093f19d",
+							"time": 2.25,
+							"color": -1,
+							"interpolation": "linear",
+							"bezier_linked": true,
+							"bezier_left_time": [-0.1, -0.1, -0.1],
+							"bezier_left_value": [0, 0, 0],
+							"bezier_right_time": [0.1, 0.1, 0.1],
+							"bezier_right_value": [0, 0, 0]
+						}
+					]
+				}
+			}
 		}
 	],
 	"display": {
@@ -180614,6 +180716,10 @@
 		},
 		"ground": {
 			"scale": [0.0625, 0.0625, 0.0625]
+		},
+		"gui": {
+			"rotation": [0, -90, 0],
+			"scale": [0.1, 0.1, 0.1]
 		},
 		"head": {
 			"scale": [0.0625, 0.0625, 0.0625]
