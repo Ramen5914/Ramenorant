@@ -140,5 +140,8 @@
 
   "creativemodetab.ramenorant_tab": "Ramenorant",
   "creativemodetab.ramenorant_guns_tab": "Ramenorant Guns",
-  "creativemodetab.ramenorant_abilities_tab": "Ramenorant Abilities"
+  "creativemodetab.ramenorant_abilities_tab": "Ramenorant Abilities",
+
+  "key.category.ramenorant.ramenorant": "Ramenorant",
+  "key.ramenorant.reload_weapon": "Reload Weapon"
 }

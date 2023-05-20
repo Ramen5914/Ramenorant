@@ -1,9 +1,9 @@
 package net.ramen.ramenorant.item.custom;
 
+import net.ramen.ramenorant.item.client.ClassicRenderer;
 import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
-import net.ramen.ramenorant.item.client.ClassicRenderer;
 import software.bernie.geckolib.animatable.GeoItem;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInstanceCache;
@@ -15,12 +15,13 @@ import java.util.function.Consumer;
 
 public class Classic extends Item implements GeoItem {
     private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
+
     public Classic(Properties properties) {
         super(properties);
     }
 
     private PlayState predicate(AnimationState animationState) {
-        animationState.getController().setAnimation(RawAnimation.begin().then("idle", Animation.LoopType.LOOP));
+        animationState.getController().setAnimation(RawAnimation.begin().then("animation.classic.idle", Animation.LoopType.LOOP));
         return PlayState.CONTINUE;
     }
 
