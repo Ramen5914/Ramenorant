@@ -19,7 +19,7 @@ public class ClientEvents {
         @SubscribeEvent
         public static void onKeyInput(InputEvent.Key event) {
             if (KeyBinding.RELOAD_WEAPON_KEY.consumeClick()) {
-
+                
             }
         }
     }
