@@ -13,12 +13,12 @@ public class ClientEvents {
     public static class ClientForgeEvents {
         @SubscribeEvent
         public static void onKeyRegister(RegisterKeyMappingsEvent event) {
-            event.register(KeyBinding.RELOAD_WEAPON_KEY);
+            event.register(KeyBinding.RELOAD_KEY);
         }
 
         @SubscribeEvent
         public static void onKeyInput(InputEvent.Key event) {
-            if (KeyBinding.RELOAD_WEAPON_KEY.consumeClick()) {
+            if (KeyBinding.RELOAD_KEY.consumeClick()) {
                 
             }
         }
