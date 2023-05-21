@@ -33,6 +33,9 @@ replay_pid*
 /build/
 /run/
 
+# VSCode files
+/.vscode/
+
 # Other
 .DS_STORE
 /bin/
