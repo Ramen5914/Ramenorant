@@ -1,17 +1,45 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.classic.attack": {
-			"loop": true
+		"animation.classic.fire": {
+			"animation_length": 1,
+			"bones": {
+				"classic": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-20, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"slide": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 24]
+						},
+						"1.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
 		},
 		"animation.classic.reload": {
-			"loop": true
+			"loop": false
 		},
 		"animation.classic.equip": {
-			"loop": true
+			"loop": false
 		},
 		"animation.classic.idle": {
-			"loop": true,
+			"loop": false,
 			"animation_length": 2.25,
 			"bones": {
 				"classic": {

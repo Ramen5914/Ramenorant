@@ -22,14 +22,20 @@ public class Classic extends Item implements GeoItem {
         super(properties);
     }
 
-    private PlayState predicate(AnimationState animationState) {
-        animationState.getController().setAnimation(RawAnimation.begin().then("animation.classic.equip", Animation.LoopType.HOLD_ON_LAST_FRAME));
+    private PlayState idlePredicate(AnimationState animationState) {
+        animationState.getController().setAnimation(RawAnimation.begin().then("animation.classic.idle", Animation.LoopType.LOOP));
+        return PlayState.CONTINUE;
+    }
+
+    private PlayState firePredicate(AnimationState animationState) {
+        animationState.getController().setAnimation(RawAnimation.begin().then("animation.classic.fire", Animation.LoopType.PLAY_ONCE));
         return PlayState.CONTINUE;
     }
 
     @Override
     public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
-        controllerRegistrar.add(new AnimationController(this, "controller", 0, this::predicate));
+        controllerRegistrar.add(new AnimationController(this, "animation.classic.idle.controller", 0, this::idlePredicate));
+        controllerRegistrar.add(new AnimationController(this, "animation.classic.fire.controller", 0, this::firePredicate));
     }
 
     @Override
@@ -37,10 +43,10 @@ public class Classic extends Item implements GeoItem {
         return cache;
     }
 
-    @Override
-    public double getTick(Object itemStack) {
-        return RenderUtils.getCurrentTick();
-    }
+//    @Override
+//    public double getTick(Object itemStack) {
+//        return RenderUtils.getCurrentTick();
+//    }
 
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
