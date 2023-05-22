@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1280"
+   height="640"
+   viewBox="0 0 1280 640"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="ramenorant_github.svg"
+   inkscape:version="1.3-alpha (95f74fb, 2023-03-31)"
+   inkscape:export-filename="ramenorant_github.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showguides="true"
+     showgrid="false"
+     inkscape:zoom="0.35741289"
+     inkscape:cx="761.0246"
+     inkscape:cy="563.77374"
+     inkscape:window-width="1512"
+     inkscape:window-height="916"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient12"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#dc1c13;stop-opacity:1;"
+         offset="0"
+         id="stop12" />
+      <stop
+         style="stop-color:#ea4c46;stop-opacity:1;"
+         offset="0.5"
+         id="stop14" />
+      <stop
+         style="stop-color:#f0747d;stop-opacity:1;"
+         offset="0.75"
+         id="stop15" />
+      <stop
+         style="stop-color:#f1949b;stop-opacity:1;"
+         offset="0.875"
+         id="stop16" />
+      <stop
+         style="stop-color:#f6bdc0;stop-opacity:1;"
+         offset="1"
+         id="stop13" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12"
+       id="linearGradient13"
+       x1="199.33287"
+       y1="306.4743"
+       x2="436.04065"
+       y2="189.36623"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4075112,0,0,5.4650378,-1077.8947,-1034.8936)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient13);fill-opacity:1;stroke:none;stroke-width:20.5462;stroke-linejoin:round;paint-order:stroke markers fill;stroke-opacity:1"
+       id="rect11"
+       width="1280"
+       height="640"
+       x="-2.0961011e-13"
+       y="1.4210855e-14"
+       rx="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:171.642px;font-family:'Nikkyou Sans';-inkscape-font-specification:'Nikkyou Sans';fill:#f9f9f9;stroke-width:4;stroke-linejoin:round;paint-order:stroke markers fill;stroke-dasharray:none;stroke:#000000;stroke-opacity:1"
+       x="79.439705"
+       y="534.47516"
+       id="text2"
+       inkscape:label="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="79.439705"
+         y="534.47516"
+         style="stroke-width:4;stroke-dasharray:none;stroke:#000000;stroke-opacity:1">Ramenorant</tspan><tspan
+         sodipodi:role="line"
+         x="79.439705"
+         y="749.02765"
+         id="tspan3"
+         style="stroke-width:4;stroke-dasharray:none;stroke:#000000;stroke-opacity:1" /></text>
+    <g
+       id="g1"
+       transform="translate(0,73.001818)"
+       inkscape:label="g1">
+      <path
+         id="path4"
+         style="stroke:#ffffff;stroke-width:3.77953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+         d="m 639.37099,1.8932386 c -3.11108,0.1011147 -6.18996,0.9704782 -8.9796,2.5810935 L 553.43577,48.895167 c -5.95124,3.435988 -9.60861,9.785896 -9.60861,16.657812 v 44.420831 55.52604 L 640,221.0259 736.17284,165.49985 V 109.97381 65.552979 c 0,-6.871916 -3.65735,-13.221824 -9.6086,-16.657812 L 649.60861,4.4743321 C 646.633,2.7563424 643.32088,1.8932386 640,1.8932386 c -0.20757,0 -0.42159,-0.00674 -0.62901,0 z M 640,13.041827 a 5.5526044,5.5526044 0 0 1 5.55261,5.552604 A 5.5526044,5.5526044 0 0 1 640,24.147036 5.5526044,5.5526044 0 0 1 634.4474,18.594431 5.5526044,5.5526044 0 0 1 640,13.041827 Z"
+         inkscape:label="path4" />
+      <path
+         style="fill:#ff4354;fill-opacity:1;stroke:#ffffff;stroke-width:3.77953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+         d="m 543.82716,165.49518 v 36.29181 L 640,257.89051 736.17284,201.78699 V 165.49985 L 640,221.0259 Z"
+         id="path5"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:156.303px;font-family:'Nikkyou Sans';-inkscape-font-specification:'Nikkyou Sans';fill:#f9f9f9;stroke-width:0.586136;stroke-linejoin:round;paint-order:stroke markers fill"
+         x="588.02301"
+         y="155.0367"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           x="588.02301"
+           y="155.0367"
+           style="stroke-width:0.586136">R</tspan></text>
+    </g>
+  </g>
+</svg>
