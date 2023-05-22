@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.vandal.reload": {
+			"loop": true
+		},
+		"animation.vandal.inspect": {
+			"loop": true
+		},
+		"animation.vandal.fire": {
+			"loop": true
+		},
+		"animation.vandal.altfire": {
+			"loop": true
+		}
+	},
+	"geckolib_format_version": 2
+}
