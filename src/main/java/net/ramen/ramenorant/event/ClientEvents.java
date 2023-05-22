@@ -22,41 +22,35 @@ public class ClientEvents {
             } else if (KeyBinding.ABILITY_3_KEY.consumeClick()) {
                 Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ability 3"));
             } else if (KeyBinding.ABILITY_ULT_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability"));
-            }
-
-            if (KeyBinding.RELOAD_KEY.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability."));
+            } else if (KeyBinding.RELOAD_KEY.consumeClick()) {
                 Minecraft.getInstance().player.sendSystemMessage(Component.literal("Reloaded Weapon."));
-            }
-            if (KeyBinding.ABILITY_ULT_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability"));
-            }
-            if (KeyBinding.ABILITY_ULT_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability"));
-            }
-            if (KeyBinding.ABILITY_ULT_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability"));
-            }
-            if (KeyBinding.ABILITY_ULT_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability"));
-            }
-            if (KeyBinding.ABILITY_ULT_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability"));
-            }
-            if (KeyBinding.ABILITY_ULT_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability"));
-            }
-            if (KeyBinding.ABILITY_ULT_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability"));
-            }
-            if (KeyBinding.ABILITY_ULT_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability"));
-            }
-            if (KeyBinding.ABILITY_ULT_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability"));
-            }
-            if (KeyBinding.ABILITY_ULT_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Ultimate Ability"));
+            } else if (KeyBinding.INSPECT_KEY.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Inspected Weapon."));
+            } else if (KeyBinding.USE_OBJECT.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Object."));
+            } else if (KeyBinding.USE_SPIKE.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Used Spike."));
+            } else if (KeyBinding.PING.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Pinged."));
+            } else if (KeyBinding.SHOW_LOADOUTS.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Showed Player Loadouts."));
+            } else if (KeyBinding.OPEN_ARMORY.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Opened Buy Menu."));
+            } else if (KeyBinding.OPEN_MAP_TOGGLE.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Opened Map (Toggle)"));
+            } else if (KeyBinding.OPEN_MAP_HOLD.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Opened Map (Hold)"));
+            } else if (KeyBinding.SHOW_SCOREBOARD.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Showed Scoreboard."));
+            } else if (KeyBinding.VOTE_OPTION_1.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Voted for option 1."));
+            } else if (KeyBinding.VOTE_OPTION_2.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Voted for option 2."));
+            } else if (KeyBinding.VOTE_OPTION_3.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Voted for option 4."));
+            } else if (KeyBinding.VOTE_OPTION_4.consumeClick()) {
+                Minecraft.getInstance().player.sendSystemMessage(Component.literal("Voted for option 3."));
             }
         }
     }
