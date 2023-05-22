@@ -108505,7 +108505,7 @@
 			"override": false,
 			"length": 0,
 			"snapping": 24,
-			"selected": false,
+			"selected": true,
 			"saved": true,
 			"path": "/Users/ramen/Documents/GitHub/Ramenorant/src/main/resources/assets/ramenorant/animations/vandal.animation.json",
 			"anim_time_update": "",
@@ -108527,8 +108527,7 @@
 			"anim_time_update": "",
 			"blend_weight": "",
 			"start_delay": "",
-			"loop_delay": "",
-			"animators": {}
+			"loop_delay": ""
 		},
 		{
 			"uuid": "c9dd82c5-e30c-0d2c-8179-9a56effbce7f",
@@ -108543,8 +108542,7 @@
 			"anim_time_update": "",
 			"blend_weight": "",
 			"start_delay": "",
-			"loop_delay": "",
-			"animators": {}
+			"loop_delay": ""
 		},
 		{
 			"uuid": "5e2eccb1-fbe7-3aea-9d30-b661da2e384b",
@@ -108553,14 +108551,13 @@
 			"override": false,
 			"length": 0,
 			"snapping": 24,
-			"selected": true,
+			"selected": false,
 			"saved": true,
 			"path": "/Users/ramen/Documents/GitHub/Ramenorant/src/main/resources/assets/ramenorant/animations/vandal.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
 			"start_delay": "",
-			"loop_delay": "",
-			"animators": {}
+			"loop_delay": ""
 		}
 	],
 	"display": {
@@ -108573,11 +108570,11 @@
 			"scale": [0.1, 0.1, 0.1]
 		},
 		"firstperson_righthand": {
-			"translation": [8.25, -10.25, -26.25],
+			"translation": [6.25, -10.25, -24.75],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"firstperson_lefthand": {
-			"translation": [8.25, -10.25, -26.25],
+			"translation": [6.25, -10.25, -24.75],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"ground": {
@@ -108604,6 +108601,7 @@
 		"entityType": "Entity",
 		"javaPackage": "com.example.mod",
 		"animFileNamespace": "MODID",
-		"animFilePath": "animations/ANIMATIONFILE.json"
+		"animFilePath": "animations/ANIMATIONFILE.json",
+		"itemModelPath": "/Users/ramen/Documents/GitHub/Ramenorant/src/main/resources/assets/ramenorant/models/item/vandal.json"
 	}
 }
