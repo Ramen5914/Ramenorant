@@ -142,6 +142,34 @@
   "creativemodetab.ramenorant_guns_tab": "Ramenorant Guns",
   "creativemodetab.ramenorant_abilities_tab": "Ramenorant Abilities",
 
-  "key.categories.ramenorant.ramenorant": "Ramenorant",
-  "key.ramenorant.reload": "Reload Weapon"
+  "key.category.ramenorant.abilities": "Abilities",
+  "key.category.ramenorant.weapons": "Weapons",
+  "key.category.ramenorant.interaction": "Interaction",
+  "key.category.ramenorant.pings": "Pings",
+  "key.category.ramenorant.general": "General",
+  "key.category.ramenorant.voting": "Voting",
+
+  "key.ramenorant.ability_1": "Use/Equip Ability: 1",
+  "key.ramenorant.ability_2": "Use/Equip Ability: 2",
+  "key.ramenorant.ability_3": "Use/Equip Ability: 3",
+  "key.ramenorant.ability_ult": "Use/Equip Ability: Ultimate",
+
+  "key.ramenorant.reload": "Reload Weapon",
+
+  "key.ramenorant.inspect": "Inspect Weapon",
+  "key.ramenorant.use_object": "Use Object",
+  "key.ramenorant.use_spike": "Use Spike (Plant or Defuse)",
+
+  "key.ramenorant.ping": "Ping (Tap)",
+
+  "key.ramenorant.show_loadouts": "Show Teammate Loadouts",
+  "key.ramenorant.open_armory": "Open Armory",
+  "key.ramenorant.open_map_toggle": "Open Map (Toggle)",
+  "key.ramenorant.open_map_hold": "Open Map (Hold)",
+  "key.ramenorant.show_scoreboard": "Show Scoreboard",
+
+  "key.ramenorant.vote_option_1": "Vote Option 1",
+  "key.ramenorant.vote_option_2": "Vote Option 2",
+  "key.ramenorant.vote_option_3": "Vote Option 3",
+  "key.ramenorant.vote_option_4": "Vote Option 4"
 }
