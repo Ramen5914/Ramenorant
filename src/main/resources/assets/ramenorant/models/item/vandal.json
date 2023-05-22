@@ -32,9 +32,9 @@
     },
     "firstperson_righthand": {
       "translation": [
-        8.25,
+        6.25,
         -10.25,
-        -26.25
+        -24.75
       ],
       "scale": [
         0.5,
@@ -44,9 +44,9 @@
     },
     "firstperson_lefthand": {
       "translation": [
-        8.25,
+        6.25,
         -10.25,
-        -26.25
+        -24.75
       ],
       "scale": [
         0.5,
