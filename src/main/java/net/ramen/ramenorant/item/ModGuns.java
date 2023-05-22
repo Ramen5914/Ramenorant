@@ -8,6 +8,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.ramen.ramenorant.Ramenorant;
 import net.ramen.ramenorant.item.custom.Classic;
+import net.ramen.ramenorant.item.custom.Vandal;
 
 public class ModGuns {
     public static final DeferredRegister<Item> GUNS =
@@ -97,7 +98,7 @@ public class ModGuns {
             ));
 
     public static final RegistryObject<Item> VANDAL = GUNS.register("vandal",
-            () -> new Item(new Item.Properties()
+            () -> new Vandal(new Item.Properties()
                     .stacksTo(1)
                     .rarity(Rarity.RARE)
             ));
