@@ -1,11 +1,10 @@
 {
   "homepage": "https://github.com/Ramen5914/Ramenorant",
   "1.19.4": {
-    "0.0.2": "Test Version",
-    "0.0.1": "Initial Version"
+    "0.0.1": "Initial commit"
   },
   "promos": {
-    "1.19.4-latest": "0.0.2",
-    "1.19.4-recommended": "0.0.2"
+    "1.19.4-latest": "0.0.1",
+    "1.19.4-recommended": "0.0.1"
   }
 }
