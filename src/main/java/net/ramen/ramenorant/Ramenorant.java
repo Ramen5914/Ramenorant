@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.ramen.ramenorant.effect.ModEffects;
 import net.ramen.ramenorant.item.ModAbilities;
 import net.ramen.ramenorant.block.ModBlocks;
 import net.ramen.ramenorant.item.ModGuns;
@@ -29,6 +30,8 @@ public class Ramenorant {
         ModAbilities.register(modEventBus);
         ModGuns.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModEffects.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
