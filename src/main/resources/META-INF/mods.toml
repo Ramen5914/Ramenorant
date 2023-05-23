@@ -6,7 +6,7 @@ issueTrackerURL="https://github.com/Ramen5914/Ramenorant/issues"
 
 [[mods]]
 modId="ramenorant"
-version="0.0.1"
+version="${file.jarVersion}"
 displayName="Ramenorant"
 updateJSONURL="https://github.com/Ramen5914/Ramenorant/blob/main/updates.json"
 displayURL="https://github.com/Ramen5914/Ramenorant"
