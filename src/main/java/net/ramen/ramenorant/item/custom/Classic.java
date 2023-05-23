@@ -1,6 +1,6 @@
 package net.ramen.ramenorant.item.custom;
 
-import net.ramen.ramenorant.item.client.ClassicRenderer;
+import net.ramen.ramenorant.item.client.renderer.ClassicRenderer;
 import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
@@ -9,7 +9,6 @@ import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache
 import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInstanceCache;
 import software.bernie.geckolib.core.animation.*;
 import software.bernie.geckolib.core.object.PlayState;
-import software.bernie.geckolib.util.RenderUtils;
 
 import java.util.function.Consumer;
 

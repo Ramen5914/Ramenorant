@@ -1,4 +1,4 @@
-package net.ramen.ramenorant.item.client;
+package net.ramen.ramenorant.item.client.model;
 
 import net.minecraft.resources.ResourceLocation;
 import net.ramen.ramenorant.Ramenorant;
