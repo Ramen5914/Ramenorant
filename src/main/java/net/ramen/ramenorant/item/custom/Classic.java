@@ -54,7 +54,7 @@ public class Classic extends Item implements GeoItem {
 
             @Override
             public BlockEntityWithoutLevelRenderer getCustomRenderer() {
-                if(this.renderer == null) {
+                if (this.renderer == null) {
                     renderer = new ClassicRenderer();
                 }
 
