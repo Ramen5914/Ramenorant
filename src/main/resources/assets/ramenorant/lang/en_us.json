@@ -173,5 +173,10 @@
   "key.ramenorant.vote_option_3": "Vote Option 3",
   "key.ramenorant.vote_option_4": "Vote Option 4",
 
-  "effect.ramenorant.flashpoint": "Flashpoint"
+  "effect.ramenorant.gravity_well": "Vulnerable",
+  "effect.ramenorant.nova_pulse": "Concussed",
+
+  "effect.ramenorant.fault_line": "Concussed",
+  "effect.ramenorant.flashpoint": "Flashed",
+  "effect.ramenorant.rolling_thunder": "Concussed"
 }
