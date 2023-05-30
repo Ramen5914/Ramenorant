@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.ramen.ramenorant.Ramenorant;
 import net.ramen.ramenorant.util.KeyBinding;
+import net.minecraftforge.event.entity.player.AttackEntityEvent;
 
 public class ClientEvents {
     @Mod.EventBusSubscriber(modid = Ramenorant.MOD_ID, value = Dist.CLIENT)

@@ -1,5 +1,6 @@
 package net.ramen.ramenorant.item.custom;
 
+import net.minecraft.world.level.block.BaseEntityBlock;
 import net.ramen.ramenorant.item.client.renderer.ClassicRenderer;
 import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
 import net.minecraft.world.item.Item;
@@ -46,6 +47,8 @@ public class Classic extends Item implements GeoItem {
 //    public double getTick(Object itemStack) {
 //        return RenderUtils.getCurrentTick();
 //    }
+
+
 
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
