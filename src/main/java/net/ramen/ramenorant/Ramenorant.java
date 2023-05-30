@@ -15,6 +15,7 @@ import net.minecraftforge.registries.RegisterEvent;
 import net.ramen.ramenorant.item.ModAbilities;
 import net.ramen.ramenorant.block.ModBlocks;
 import net.ramen.ramenorant.item.ModGuns;
+import net.ramen.ramenorant.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -33,6 +34,8 @@ public class Ramenorant {
         ModBlocks.register(modEventBus);
 
         ModEffects.register(modEventBus);
+      
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);

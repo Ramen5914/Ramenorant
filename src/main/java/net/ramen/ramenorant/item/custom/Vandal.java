@@ -1,7 +1,6 @@
 package net.ramen.ramenorant.item.custom;
 
-import net.minecraft.world.level.block.BaseEntityBlock;
-import net.ramen.ramenorant.item.client.renderer.ClassicRenderer;
+import net.ramen.ramenorant.item.client.VandalRenderer;
 import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
@@ -13,29 +12,23 @@ import software.bernie.geckolib.core.object.PlayState;
 
 import java.util.function.Consumer;
 
-public class Classic extends Item implements GeoItem {
-    private static final RawAnimation SHOOT_ANIMATION = RawAnimation.begin().thenPlay("animation.classic.fire");
-    private static final RawAnimation RELOAD_ANIMATION = RawAnimation.begin().thenPlay("animation.classic.reload");
+public class Vandal extends Item implements GeoItem {
+    private static final RawAnimation FIRE_ANIMATION = RawAnimation.begin().thenPlay("animation.vandal.fire");
+    private static final RawAnimation RELOAD_ANIMATION = RawAnimation.begin().thenPlay("animation.vandal.reload");
     private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 
-    public Classic(Properties properties) {
+    public Vandal(Properties properties) {
         super(properties);
     }
 
-    private PlayState idlePredicate(AnimationState animationState) {
-        animationState.getController().setAnimation(RawAnimation.begin().then("animation.classic.idle", Animation.LoopType.LOOP));
-        return PlayState.CONTINUE;
-    }
-
     private PlayState firePredicate(AnimationState animationState) {
-        animationState.getController().setAnimation(RawAnimation.begin().then("animation.classic.fire", Animation.LoopType.PLAY_ONCE));
+        animationState.getController().setAnimation(FIRE_ANIMATION);
         return PlayState.CONTINUE;
     }
 
     @Override
     public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
-        controllerRegistrar.add(new AnimationController(this, "animation.classic.idle.controller", 0, this::idlePredicate));
-        controllerRegistrar.add(new AnimationController(this, "animation.classic.fire.controller", 0, this::firePredicate));
+        controllerRegistrar.add(new AnimationController(this, "animation.vandal.controller.fire", 0, this::firePredicate));
     }
 
     @Override
@@ -43,22 +36,15 @@ public class Classic extends Item implements GeoItem {
         return cache;
     }
 
-//    @Override
-//    public double getTick(Object itemStack) {
-//        return RenderUtils.getCurrentTick();
-//    }
-
-
-
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
-            private ClassicRenderer renderer;
+            private VandalRenderer renderer;
 
             @Override
             public BlockEntityWithoutLevelRenderer getCustomRenderer() {
                 if (this.renderer == null) {
-                    renderer = new ClassicRenderer();
+                    renderer = new VandalRenderer();
                 }
 
                 return this.renderer;
