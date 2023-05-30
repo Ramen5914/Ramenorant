@@ -1,17 +1,29 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.vandal.reload": {
+		"reload": {
 			"loop": true
 		},
-		"animation.vandal.inspect": {
+		"inspect": {
 			"loop": true
 		},
-		"animation.vandal.fire": {
+		"altfire": {
 			"loop": true
 		},
-		"animation.vandal.altfire": {
-			"loop": true
+		"fire": {
+			"animation_length": 0.25,
+			"bones": {
+				"vandal": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 105.02, 0]
+						}
+					}
+				}
+			}
 		}
 	},
 	"geckolib_format_version": 2
