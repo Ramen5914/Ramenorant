@@ -11,6 +11,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.ramen.ramenorant.effect.ModEffects;
+import net.minecraftforge.registries.RegisterEvent;
 import net.ramen.ramenorant.item.ModAbilities;
 import net.ramen.ramenorant.block.ModBlocks;
 import net.ramen.ramenorant.item.ModGuns;
