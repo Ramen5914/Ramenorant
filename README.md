@@ -13,76 +13,13 @@ You can check out Nimsy here! ---> [YouTube](https://www.youtube.com/@Nimsy) | [
 ---
 
 ## Project Timeline
-- [ ] Add weapons
-  - [ ] Sidearms
-    - [ ] Classic
-    - [ ] Shorty
-    - [ ] Frenzy
-    - [ ] Ghost
-    - [ ] Sheriff
-  - [ ] Submachine Guns
-    - [ ] Stinger
-    - [ ] Spectre
-  - [ ] Shotguns
-    - [ ] Bucky
-    - [ ] Judge
-  - [ ] Rifles
-    - [ ] Bulldog
-    - [ ] Guardian
-    - [ ] Phantom
-    - [ ] Vandal
-  - [ ] Sniper Rifles
-    - [ ] Marshal
-    - [ ] Operator
-  - [ ] Machine Guns
-    - [ ] Ares
-    - [ ] Odin
-  - [ ] Knife
-- [ ] Animate weapons
-  - [ ] Sidearms
-      - [ ] Classic
-      - [ ] Shorty
-      - [ ] Frenzy
-      - [ ] Ghost
-      - [ ] Sheriff
-  - [ ] Submachine Guns
-      - [ ] Stinger
-      - [ ] Spectre
-  - [ ] Shotguns
-      - [ ] Bucky
-      - [ ] Judge
-  - [ ] Rifles
-      - [ ] Bulldog
-      - [ ] Guardian
-      - [ ] Phantom
-      - [ ] Vandal
-  - [ ] Sniper Rifles
-      - [ ] Marshal
-      - [ ] Operator
-  - [ ] Machine Guns
-      - [ ] Ares
-      - [ ] Odin
-  - [ ] Knife
-- [ ] Add abilities
-- [ ] Animate abilities
-- [ ] Animate player hands
-- [ ] Add gun logic
-- [ ] Add ability effects
-  - [ ] Concuss
-  - [ ] Vulnerable
-  - [ ] Detained
-- [ ] Add ability logic
-- [ ] Build maps (in no particular order)
-  - [ ] Ascent
-  - [ ] Bind
-  - [ ] Split
-  - [ ] Haven
-  - [ ] Breeze
-  - [ ] Icebox
-  - [ ] Lotus
-  - [ ] Pearl
-- [ ] Add gameplay logic (round timers and stuff)
-- [ ] Play test with twitch viewers (?)
+
+If you want to see what I'm working on or what is planned for the future of this mod, check out the project board!
+
+| Project Boards                                                                   |
+|----------------------------------------------------------------------------------|
+| [Milestones/Feature List](https://github.com/users/Ramen5914/projects/2/views/1) |
+| [Todo List](https://github.com/users/Ramen5914/projects/2/views/2)               |
 
 ---
 
