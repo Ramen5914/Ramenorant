@@ -12,6 +12,10 @@ You can check out Nimsy here! ---> [YouTube](https://www.youtube.com/@Nimsy) | [
 
 ---
 
+## Version and Patch Status
+
+---
+
 ## Project Timeline
 
 If you want to see what I'm working on or what is planned for the future of this mod, check out the project board!
