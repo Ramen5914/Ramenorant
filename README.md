@@ -75,4 +75,5 @@ This project has taken a ton, and I mean a ton, of work to complete but even a s
 You are welcome to fork my project and add make my code better.
 Make sure you follow the [licence](https://github.com/Ramen5914/Ramenorant/blob/main/LICENSE) guidelines and submit a pull request when you are finished.
 
-If you have any suggestions but don't know how to code, no worries. Create an [issue](https://github.com/Ramen5914/Ramenorant/issues/new), and someone (probably me) will get on it!
+If you have any suggestions but don't know how to code, no worries.
+Create an [issue](https://github.com/Ramen5914/Ramenorant/issues/new), and someone (probably me) will get on it!
