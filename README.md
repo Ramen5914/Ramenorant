@@ -14,6 +14,24 @@ You can check out Nimsy here! ---> [YouTube](https://www.youtube.com/@Nimsy) | [
 
 ## Version and Patch Status
 
+### Latest Official Versions
+
+This table shows the latest Minecraft Forge and VALORANT version:
+
+| Name            | Version                                                                                       |
+|-----------------|-----------------------------------------------------------------------------------------------|
+| Minecraft Forge | [1.19.4-45.0.66](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.4.html) |
+| VALORANT        | [6.10](https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-6-10/)           |
+
+### Ramenorant Version
+
+This table shows the latest version of VALORANT and Forge that it includes:
+
+| Name            | Version                                                                                       |
+|-----------------|-----------------------------------------------------------------------------------------------|
+| Minecraft Forge | [1.19.4-45.0.64](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.4.html) |
+| VALORANT        | [6.07](https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-6-07/)           |
+
 ---
 
 ## Project Timeline
