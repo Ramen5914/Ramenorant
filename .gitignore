@@ -39,5 +39,3 @@ replay_pid*
 # Other
 .DS_STORE
 /bin/
-src/.DS_Store
-src/main/.DS_Store
