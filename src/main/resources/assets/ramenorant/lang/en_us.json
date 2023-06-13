@@ -138,9 +138,9 @@
   "item.ramenorant.gatecrash": "Gatecrash",
   "item.ramenorant.dimensional_drift": "Dimensional Drift",
 
-  "creativemodetab.ramenorant_tab": "Ramenorant",
-  "creativemodetab.ramenorant_guns_tab": "Ramenorant Guns",
-  "creativemodetab.ramenorant_abilities_tab": "Ramenorant Abilities",
+  "itemgroup.ramenorant_tab": "Ramenorant",
+  "itemgroup.ramenorant_guns_tab": "Ramenorant Guns",
+  "itemgroup.ramenorant_abilities_tab": "Ramenorant Abilities",
 
   "key.category.ramenorant.abilities": "Abilities",
   "key.category.ramenorant.weapons": "Weapons",
