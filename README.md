@@ -27,10 +27,10 @@ This table shows the latest Minecraft Forge and VALORANT version:
 
 This table shows the latest version of VALORANT and Forge that it includes:
 
-| Name            | Version                                                                                                                              |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Minecraft Forge | [1.19.4-45.1.0 (2 major, and 17 minor versions behind)](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.4.html) |
-| VALORANT        | [6.07 (4 Patches behind)](https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-6-07/)                               |
+| Name            | Version                                                                                                                                 |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Minecraft Forge | [1.20.1-47.0.1 (Up to date)](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.0.1/forge-1.20.1-47.0.1-changelog.txt) |
+| VALORANT        | [6.07 (4 Patches behind)](https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-6-07/)                                  |
 
 ---
 
