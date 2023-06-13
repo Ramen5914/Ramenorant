@@ -25,6 +25,39 @@ public class ModCreativeModeTabs {
                 .build();
     });
 
+    public static final RegistryObject<CreativeModeTab> RAMENORANT_GUNS_TAB = RAMENORANT_TABS.register("ramenorant_guns_tab", () -> {
+        return CreativeModeTab.builder()
+                .icon(() -> new ItemStack(ModGuns.CLASSIC.get()))
+                .displayItems((features, output) -> {
+                    output.accept(new ItemStack(ModGuns.CLASSIC.get()));
+                    output.accept(new ItemStack(ModGuns.SHORTY.get()));
+                    output.accept(new ItemStack(ModGuns.FRENZY.get()));
+                    output.accept(new ItemStack(ModGuns.GHOST.get()));
+                    output.accept(new ItemStack(ModGuns.SHERIFF.get()));
+
+                    output.accept(new ItemStack(ModGuns.STINGER.get()));
+                    output.accept(new ItemStack(ModGuns.SPECTRE.get()));
+
+                    output.accept(new ItemStack(ModGuns.BUCKY.get()));
+                    output.accept(new ItemStack(ModGuns.JUDGE.get()));
+
+                    output.accept(new ItemStack(ModGuns.BULLDOG.get()));
+                    output.accept(new ItemStack(ModGuns.GUARDIAN.get()));
+                    output.accept(new ItemStack(ModGuns.PHANTOM.get()));
+                    output.accept(new ItemStack(ModGuns.VANDAL.get()));
+
+                    output.accept(new ItemStack(ModGuns.MARSHALL.get()));
+                    output.accept(new ItemStack(ModGuns.OPERATOR.get()));
+
+                    output.accept(new ItemStack(ModGuns.ARES.get()));
+                    output.accept(new ItemStack(ModGuns.ODIN.get()));
+
+                    output.accept(new ItemStack(ModGuns.KNIFE.get()));
+                })
+                .title(Component.translatable("itemgroup.ramenorant_guns_tab"))
+                .build();
+    });
+
     public static void register(IEventBus eventBus) {
         RAMENORANT_TABS.register(eventBus);
     }
