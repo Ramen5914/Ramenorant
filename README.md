@@ -1,4 +1,4 @@
-![Ramenorant Logo](https://raw.githubusercontent.com/Ramen5914/Ramenorant/main/src/main/resources/ramenorant.png)
+![Ramenorant Logo](https://raw.githubusercontent.com/Ramen5914/Ramenorant/main/src/main/resources/ramenorant.svg)
 ### VALORANT in Minecraft.
 
 ---
