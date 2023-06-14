@@ -3,12 +3,14 @@ package net.ramen.ramenorant;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.ramen.ramenorant.item.ModGuns;
+
+import static net.ramen.ramenorant.Ramenorant.CREATIVE_MODE_TABS;
 
 public class ModCreativeModeTabs {
     private static final DeferredRegister<CreativeModeTab> RAMENORANT_TABS =
@@ -25,7 +27,7 @@ public class ModCreativeModeTabs {
                 .build();
     });
 
-    public static final RegistryObject<CreativeModeTab> RAMENORANT_GUNS_TAB = RAMENORANT_TABS.register("ramenorant_guns_tab", () -> {
+    public static final RegistryObject<CreativeModeTab> GUN_TAB = RAMENORANT_TABS.register("gun_tab", () -> {
         return CreativeModeTab.builder()
                 .icon(() -> new ItemStack(ModGuns.CLASSIC.get()))
                 .displayItems((features, output) -> {
@@ -54,11 +56,14 @@ public class ModCreativeModeTabs {
 
                     output.accept(new ItemStack(ModGuns.KNIFE.get()));
                 })
-                .title(Component.translatable("itemgroup.ramenorant_guns_tab"))
+                .title(Component.translatable("itemgroup.gun_tab"))
                 .build();
     });
 
-    public static void register(IEventBus eventBus) {
-        RAMENORANT_TABS.register(eventBus);
-    }
+//    public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
+//            .withTabsBefore(CreativeModeTabs.COMBAT)
+//            .icon(() -> EXAMPLE_ITEM.get().getDefaultInstance())
+//            .displayItems((parameters, output) -> {
+//                output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
+//            }).build());
 }
