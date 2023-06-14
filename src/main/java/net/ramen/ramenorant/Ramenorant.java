@@ -1,56 +1,78 @@
 package net.ramen.ramenorant;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.Minecraft;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-//import net.ramen.ramenorant.effect.ModEffects;
-import net.minecraftforge.registries.RegisterEvent;
-import net.ramen.ramenorant.item.ModAbilities;
-import net.ramen.ramenorant.block.ModBlocks;
-import net.ramen.ramenorant.item.ModGuns;
-import net.ramen.ramenorant.sound.ModSounds;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
-@Mod(Ramenorant.MOD_ID)
+@Mod(net.ramen.ramenorant.Ramenorant.MOD_ID)
 public class Ramenorant {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "ramenorant";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
+    public static final DeferredRegister<Item> GUNS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
+    public static final DeferredRegister<Item> ABILITIES = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
     public Ramenorant() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModAbilities.register(modEventBus);
-        ModGuns.register(modEventBus);
-        ModBlocks.register(modEventBus);
-
-        ModCreativeModeTabs.register(modEventBus);
-
-//        ModEffects.register(modEventBus);
-      
-        ModSounds.register(modEventBus);
-
         modEventBus.addListener(this::commonSetup);
+
+        BLOCKS.register(modEventBus);
+        ITEMS.register(modEventBus);
+
+        GUNS.register(modEventBus);
+        ABILITIES.register(modEventBus);
+
+        CREATIVE_MODE_TABS.register(modEventBus);
+
         MinecraftForge.EVENT_BUS.register(this);
+
+        modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        // Some common setup code
+        LOGGER.info("HELLO FROM COMMON SETUP");
+        LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
     }
 
+    private void addCreative(BuildCreativeModeTabContentsEvent event) { }
+
+    // You can use SubscribeEvent and let the Event Bus discover methods to call
+    @SubscribeEvent
+    public void onServerStarting(ServerStartingEvent event) {
+        // Do something when the server starts
+        LOGGER.info("HELLO from server starting");
+    }
+
+    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            // Some client setup code
+            LOGGER.info("HELLO FROM CLIENT SETUP");
+            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
 }
