@@ -1,39 +1,37 @@
 modLoader="javafml"
-loaderVersion="[45,)"
-license="GNU GPLv3"
+loaderVersion="${loader_version_range}"
+
+license="${mod_license}"
 
 issueTrackerURL="https://github.com/Ramen5914/Ramenorant/issues"
 
 [[mods]]
-modId="ramenorant"
-version="${file.jarVersion}"
-displayName="Ramenorant"
-updateJSONURL="https://github.com/Ramen5914/Ramenorant/blob/main/updates.json"
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+updateJSONURL="https://raw.githubusercontent.com/Ramen5914/Ramenorant/main/updates.json"
 displayURL="https://github.com/Ramen5914/Ramenorant"
 logoFile="ramenorant.png"
 credits="Thanks to FlimsyNimsy for doing this first, somehow without mods..."
-authors="Omar Rahman (Ramen5914)"
+authors="${mod_authors}"
 displayTest="MATCH_VERSION"
+description='''${mod_description}'''
 
-description='''
-Basically ports Riot Games' VALORANT to Minecraft. This took a lot of work, you can support me over at twitch.tv/Ramen5914
-'''
-
-[[dependencies.ramenorant]]
+[[dependencies.${mod_id}]]
     modId="forge"
     mandatory=true
-    versionRange="[47,)"
+    versionRange="${forge_version_range}"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.ramenorant]]
+[[dependencies.${mod_id}]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.1,1.21)"
+    versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.ramenorant]]
+[[dependencies.${mod_id}]]
     modId="geckolib"
     mandatory=true
     versionRange="[4.2,)"
