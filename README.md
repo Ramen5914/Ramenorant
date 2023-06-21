@@ -65,7 +65,7 @@ This project has taken a ton, and I mean a ton, of work to complete but even a s
 | Social    | Link                                                                      |
 |-----------|---------------------------------------------------------------------------|
 | Twitch    | [Ramen5914](https://www.twitch.tv/Ramen5914)                              |
-| YouTube   | [@Ramen5914ttv](https://www.youtube.com/channel/UC_dRfYttoM4UuGQ7lj-K3lQ) |
+| YouTube   | [@Ramen5914ttv](https://www.youtube.com/@Ramen5914ttv)    |
 | Discord   | [Ramen's Shop](https://discord.com/invite/ww7D7jBYDy)                     |
 | Donations | [Streamlabs](https://streamlabs.com/ramen5914)                            |
 
