@@ -49,7 +49,7 @@ If you want to see what I'm working on or what is planned for the future of this
 
 ### When will this be available for Fabric?
 Honestly, I've never made anything for Fabric mod loader so as of now there are no plans to port it over.
-If any one wants to port it for me that'd be amazing, make sure to fork this repository and follow my licence.
+If any one wants to port it for me that'd be amazing, make sure to fork this repository and follow the license and guidelines.
 
 ### Are you going to make this compatible with Minecraft version X?
 This mod was started on version 1.19.4, and it will never be ported backwards.
