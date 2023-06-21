@@ -39,3 +39,5 @@ replay_pid*
 # Other
 .DS_STORE
 /bin/
+/modeling/blender/
+/modeling/obj/
