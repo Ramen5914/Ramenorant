@@ -60,7 +60,7 @@ I am actively attending high school though, but I will try to keep releases time
 
 ## Support Me
 If you like this project and want to see it continued, considering supporting me on twitch or other places.
-This project has taken a ton, and I mean a ton, of work to complete but even a simple twitch follow helps me out!
+This project has taken a ton of work to complete but even a simple twitch follow helps me out!
 
 | Social    | Link                                                   |
 |-----------|--------------------------------------------------------|
