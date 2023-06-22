@@ -163,6 +163,13 @@ repositories {
     // }
 
     maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
 }
 
 dependencies {
@@ -189,6 +196,9 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${geckolib_mc_version}:${geckolib_version}")
+
+    implementation fg.deobf("curse.maven:fancymenu-forge-367706:4600125")
+    implementation fg.deobf("curse.maven:konkrete-410295:4583492")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
@@ -200,8 +210,10 @@ def replaceProperties = [
         minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
         forge_version: forge_version, forge_version_range: forge_version_range,
         loader_version_range: loader_version_range,
-        mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
-        mod_authors: mod_authors, mod_description: mod_description
+        mod_id: mod_id, mod_name: mod_name, mod_license: mod_license,
+        mod_version: mod_version, short_mod_version: short_mod_version,
+        mod_authors: mod_authors, mod_description: mod_description,
+        geckolib_version: geckolib_version
 ]
 processResources {
     inputs.properties replaceProperties
