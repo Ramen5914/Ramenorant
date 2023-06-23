@@ -40,3 +40,13 @@ replay_pid*
 /bin/
 /modeling/blender/
 /modeling/obj/
+
+# Minecraft run files
+/run/logs/
+/run/mods/
+/run/defaultconfigs/
+/run/crash-reports/
+/run/options.txt
+/run/resourcepacks/
+/run/config/fml.toml
+/run/config/forge-client.toml
