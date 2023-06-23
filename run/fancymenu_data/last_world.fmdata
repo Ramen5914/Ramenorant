@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = true
+  world = %fancymenu_dummy_address%:25565
+}
+

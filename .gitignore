@@ -31,7 +31,6 @@ replay_pid*
 
 # Java build files
 /build/
-/run/
 
 # VSCode files
 /.vscode/

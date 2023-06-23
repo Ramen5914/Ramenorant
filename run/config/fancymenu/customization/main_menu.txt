@@ -1,0 +1,247 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  requiredmods = ramenorant
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 232
+  action = movebutton
+  y = 64
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = bottom-right
+  x = -50
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-right
+  x = -36
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 35
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-right
+  x = -26
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-left
+  x = 5
+  action = movebutton
+  y = -12
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 293
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 9911f757-3dc0-4b31-bb0e-0f537312122e1687455733380
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 4da231f5-e117-4cf7-a311-63655f7b7da61687455733386
+  y = 232
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 283
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = f1cc3267-fdf5-4ea8-abd6-9bafab69ff531687455733386
+  y = 254
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 530
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 3c02b9c3-0b71-42ff-b69f-3fbea70bac051687455733386
+  y = 220
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 290
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = eb34ec45-262e-4559-ae4e-ca97f37eca2d1687455733386
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = fe8a5f75-c4ab-4e3c-9135-14cfc2a909e01687455733386
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = bottom-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/Ramen5914/Ramenorant%btnaction_splitter_fm%
+  x = 5
+  width = 35
+  action = addbutton
+  actionid = 31db447c-4dd9-4a9e-be98-2b8e01e6216e1687481140021
+  y = -40
+  label = 
+  height = 35
+}
+
+customization {
+  orientation = mid-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen%btnaction_splitter_fm%
+  x = 5
+  width = 200
+  action = addbutton
+  actionid = 7f48a9f3-b537-4b1f-bd10-e2ff3b01ff791687479387597
+  y = -58
+  label = Play
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = loadworld;range%btnaction_splitter_fm%
+  x = 5
+  width = 200
+  action = addbutton
+  actionid = 1351e68c-71a7-43ac-86ed-cdb96c3dfc4a1687479712076
+  y = 205
+  label = Practice Range
+  height = 20
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 7b4cb679-79a1-4c2d-8a4b-dc9aed733a7b1687480161276
+  y = 6
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  x = 8
+  width = 29
+  action = addwebtexture
+  actionid = 52e3f84c-00c4-4140-ab4e-2c9c7986d8021687480345993
+  y = 443
+  url = https://raw.githubusercontent.com/Ramen5914/Ramenorant/main/images/icon.png
+  height = 29
+}
+
+customization {
+  orientation = top-left
+  x = 824
+  width = 25
+  action = addwebtexture
+  actionid = 7c97bf1e-6445-4121-9529-2a8f006a19351687482698587
+  y = 5
+  url = https://raw.githubusercontent.com/Ramen5914/Ramenorant/main/images/settingsIcon.png
+  height = 25
+}
+
