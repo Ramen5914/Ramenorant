@@ -50,5 +50,5 @@ replay_pid*
 /run/resourcepacks/
 /run/config/fml.toml
 /run/config/forge-client.toml
-/run/fancymenu_data/
 /run/fancymenu_setups/
+/run/fancymenu_data/
