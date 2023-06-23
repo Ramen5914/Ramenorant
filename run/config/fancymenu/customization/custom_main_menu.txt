@@ -1,0 +1,156 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_language_button
+  x = -24
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-right
+  x = -25
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 10
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 120
+  action = resizebutton
+  height = 31
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/play_button_hover.png
+  backgroundnormal = resources/play_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 4d5dc487-8499-4707-a5de-42f63ac332711687509873512
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = afdadac1-8806-4edd-b63c-4b1aaca3d0611687509873515
+  y = 358
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 3c399273-3e83-44ca-84ab-bffe325a91381687509873515
+  y = 380
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 072b925b-04e4-449c-839f-cf293a4a7ec01687509873516
+  y = 200
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 28606f9c-69af-42a3-a736-6edf8e4ce2271687509873516
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 5fdb4684-7827-4e8d-bd96-ced7a2f2a1d61687509873516
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.ramen.client.gui.screens.AgentScreen%btnaction_splitter_fm%
+  backgroundhovered = resources/agents_button_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 10
+  width = 120
+  action = addbutton
+  actionid = d26fc8c1-1198-4fe0-8b82-bf19dbfc82151687511614944
+  y = -10
+  backgroundnormal = resources/agents_button.png
+  height = 20
+}
+
