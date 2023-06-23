@@ -42,7 +42,7 @@ replay_pid*
 /modeling/obj/
 
 # Minecraft run files
-/run/logs/
+/run/logs/*
 /run/mods/
 /run/defaultconfigs/
 /run/crash-reports/
