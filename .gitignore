@@ -35,12 +35,13 @@ replay_pid*
 # VSCode files
 /.vscode/
 
+# Minecraft run files
+/run/logs/
+/run/crash-reports/
+
 # Other
 .DS_STORE
 /bin/
 /modeling/blender/
 /modeling/obj/
-
-# Minecraft run files
-/run/logs/
-/run/crash-reports/
+/modeling/seperated obj/
