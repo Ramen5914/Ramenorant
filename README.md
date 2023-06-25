@@ -78,3 +78,7 @@ Make sure you follow the [licence](https://github.com/Ramen5914/Ramenorant/blob/
 If you have any suggestions but don't know how to code, no worries.
 Create an [issue](https://github.com/Ramen5914/Ramenorant/issues/new), and someone (probably me) will get on it!
 You can also contact me at [ramen5914@gmail.com](mailto:ramen5914@gmail.com) for anything related to this project.
+
+## Disclaimer
+Ramenorant is not a part of Riot Games nor is it Endorsed or affiliated in any way.
+Ramenorant was created under Riot Games' ["Legal Jibber Jabber"](https://www.riotgames.com/en/legal) policy using assets that are owned by Riot Games.
