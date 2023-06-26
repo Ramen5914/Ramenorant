@@ -39,9 +39,12 @@ replay_pid*
 /run/logs/
 /run/crash-reports/
 
+# Modeling Files
+/modeling/blender/
+/modeling/seperated blender/
+/modeling/obj/
+/modeling/seperated obj/
+
 # Other
 .DS_STORE
 /bin/
-/modeling/blender/
-/modeling/obj/
-/modeling/seperated obj/
