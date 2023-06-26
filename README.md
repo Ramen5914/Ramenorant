@@ -43,6 +43,8 @@ If you want to see what I'm working on or what is planned for the future of this
 | [Milestones/Feature List](https://github.com/users/Ramen5914/projects/2/views/1) |
 | [Todo List](https://github.com/users/Ramen5914/projects/2/views/2)               |
 
+![Alt](https://repobeats.axiom.co/api/embed/e4142954a7e09b13a4696255605892684209a764.svg "Repobeats analytics image")
+
 ---
 
 ## FAQ
@@ -80,5 +82,5 @@ Create an [issue](https://github.com/Ramen5914/Ramenorant/issues/new), and someo
 You can also contact me at [ramen5914@gmail.com](mailto:ramen5914@gmail.com) for anything related to this project.
 
 ## Disclaimer
-Ramenorant is not a part of Riot Games nor is it Endorsed or affiliated in any way.
-Ramenorant was created under Riot Games' ["Legal Jibber Jabber"](https://www.riotgames.com/en/legal) policy using assets that are owned by Riot Games.
+Ramenorant was created under Riot Games' ["Legal Jibber Jabber"](https://www.riotgames.com/en/legal) policy using assets owned by Riot Games.
+Riot Games does not endorse or sponsor this project.
