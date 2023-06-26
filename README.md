@@ -82,5 +82,5 @@ Create an [issue](https://github.com/Ramen5914/Ramenorant/issues/new), and someo
 You can also contact me at [ramen5914@gmail.com](mailto:ramen5914@gmail.com) for anything related to this project.
 
 ## Disclaimer
-Ramenorant is not a part of Riot Games nor is it Endorsed or affiliated in any way.
-Ramenorant was created under Riot Games' ["Legal Jibber Jabber"](https://www.riotgames.com/en/legal) policy using assets that are owned by Riot Games.
+Ramenorant was created under Riot Games' ["Legal Jibber Jabber"](https://www.riotgames.com/en/legal) policy using assets owned by Riot Games.
+Riot Games does not endorse or sponsor this project.
