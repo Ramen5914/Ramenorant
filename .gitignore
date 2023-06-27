@@ -38,6 +38,7 @@ replay_pid*
 # Minecraft run files
 /run/logs/
 /run/crash-reports/
+run/usercache.json
 
 # Modeling Files
 /modeling/blender/
