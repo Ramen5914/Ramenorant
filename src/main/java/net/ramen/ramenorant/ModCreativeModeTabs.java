@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModGuns.CLASSIC.get());
                 output.accept(ModGuns.SHORTY.get());
                 output.accept(ModGuns.FRENZY.get());
+                output.accept(ModGuns.GHOST.get());
             })
             .build()
     );
