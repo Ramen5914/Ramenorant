@@ -41,6 +41,7 @@ replay_pid*
 /run/usercache.json
 /run/usernamecache.json
 /run/saves/
+run/fancymenu_data/last_world.fmdata
 
 # Modeling Files
 /modeling/blender/
