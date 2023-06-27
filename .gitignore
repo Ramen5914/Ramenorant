@@ -39,6 +39,7 @@ replay_pid*
 /run/logs/
 /run/crash-reports/
 run/usercache.json
+run/usernamecache.json
 
 # Modeling Files
 /modeling/blender/
