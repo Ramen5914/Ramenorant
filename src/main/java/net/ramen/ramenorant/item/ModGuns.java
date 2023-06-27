@@ -14,6 +14,13 @@ public class ModGuns {
     public static final RegistryObject<Item> CLASSIC = GUNS.register("classic",
             () -> new Item(new Item.Properties()
                     .rarity(Rarity.COMMON)
-                    .defaultDurability(12)
-            ));
+            )
+    );
+
+    public static final RegistryObject<Item> SHORTY = GUNS.register("shorty",
+            () -> new Item(new Item.Properties()
+                    .rarity(Rarity.COMMON)
+            )
+    );
+
 }

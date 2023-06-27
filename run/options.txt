@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -118,24 +118,6 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.ramenorant.ability_1:key.keyboard.c
-key_key.ramenorant.ability_2:key.keyboard.q
-key_key.ramenorant.ability_3:key.keyboard.e
-key_key.ramenorant.ability_ult:key.keyboard.x
-key_key.ramenorant.reload:key.keyboard.r
-key_key.ramenorant.inspect:key.keyboard.y
-key_key.ramenorant.use_object:key.keyboard.f
-key_key.ramenorant.use_spike:key.keyboard.4
-key_key.ramenorant.ping:key.keyboard.z
-key_key.ramenorant.show_loadouts:key.keyboard.left.alt
-key_key.ramenorant.open_armory:key.keyboard.b
-key_key.ramenorant.open_map_toggle:key.keyboard.m
-key_key.ramenorant.open_map_hold:key.keyboard.caps.lock
-key_key.ramenorant.show_scoreboard:key.keyboard.tab
-key_key.ramenorant.vote_option_1:key.keyboard.f5
-key_key.ramenorant.vote_option_2:key.keyboard.f6
-key_key.ramenorant.vote_option_3:key.keyboard.f7
-key_key.ramenorant.vote_option_4:key.keyboard.f8
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 soundCategory_master:1.0
