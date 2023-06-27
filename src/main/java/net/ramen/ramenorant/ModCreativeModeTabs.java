@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
             .displayItems((params, output) -> {
                 output.accept(ModGuns.CLASSIC.get());
                 output.accept(ModGuns.SHORTY.get());
+                output.accept(ModGuns.FRENZY.get());
             })
             .build()
     );
