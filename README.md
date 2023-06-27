@@ -38,10 +38,7 @@ This table shows the latest version of VALORANT and Forge that it includes:
 
 If you want to see what I'm working on or what is planned for the future of this mod, check out the project board!
 
-| Project Boards                                                                   |
-|----------------------------------------------------------------------------------|
-| [Milestones/Feature List](https://github.com/users/Ramen5914/projects/2/views/1) |
-| [Todo List](https://github.com/users/Ramen5914/projects/2/views/2)               |
+[Task Board](https://github.com/users/Ramen5914/projects/2/views/2)
 
 ![Alt](https://repobeats.axiom.co/api/embed/e4142954a7e09b13a4696255605892684209a764.svg "Repobeats analytics image")
 
