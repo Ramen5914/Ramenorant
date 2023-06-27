@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
             // Add default items to tab
             .displayItems((params, output) -> {
                 output.accept(ModGuns.CLASSIC.get());
+                output.accept(ModGuns.SHORTY.get());
             })
             .build()
     );
