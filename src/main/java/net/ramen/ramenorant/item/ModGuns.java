@@ -23,4 +23,10 @@ public class ModGuns {
             )
     );
 
+    public static final RegistryObject<Item> FRENZY = GUNS.register("frenzy",
+            () -> new Item(new Item.Properties()
+                    .rarity(Rarity.COMMON)
+            )
+    );
+
 }

@@ -38,8 +38,8 @@ replay_pid*
 # Minecraft run files
 /run/logs/
 /run/crash-reports/
-run/usercache.json
-run/usernamecache.json
+/run/usercache.json
+/run/usernamecache.json
 /run/saves/
 
 # Modeling Files
