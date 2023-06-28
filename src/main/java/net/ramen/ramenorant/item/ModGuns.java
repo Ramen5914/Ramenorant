@@ -40,4 +40,11 @@ public class ModGuns {
                     .rarity(Rarity.COMMON)
             )
     );
+    
+    //SMGs
+    public static final RegistryObject<Item> SPECTRE = GUNS.register("spectre",
+            () -> new Item(new Item.Properties()
+                    .rarity(Rarity.COMMON)
+            )
+    );
 }
