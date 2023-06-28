@@ -27,7 +27,8 @@ public class ModCreativeModeTabs {
                 output.accept(ModGuns.GHOST.get());
                 output.accept(ModGuns.SHERIFF.get());
 
-                //SMGs
+                // SMGs
+                output.accept(ModGuns.STINGER.get());
                 output.accept(ModGuns.SPECTRE.get());
             })
             .build()

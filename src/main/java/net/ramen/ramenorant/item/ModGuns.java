@@ -11,6 +11,7 @@ import static net.ramen.ramenorant.Ramenorant.MOD_ID;
 public class ModGuns {
     public static final DeferredRegister<Item> GUNS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
 
+    // Sidearms
     public static final RegistryObject<Item> CLASSIC = GUNS.register("classic",
             () -> new Item(new Item.Properties()
                     .rarity(Rarity.COMMON)
@@ -41,7 +42,13 @@ public class ModGuns {
             )
     );
 
-    //SMGs
+    // SMGs
+    public static final RegistryObject<Item> STINGER = GUNS.register("stinger",
+            () -> new Item(new Item.Properties()
+                    .rarity(Rarity.COMMON)
+            )
+    );
+                                                                     
     public static final RegistryObject<Item> SPECTRE = GUNS.register("spectre",
             () -> new Item(new Item.Properties()
                     .rarity(Rarity.COMMON)
