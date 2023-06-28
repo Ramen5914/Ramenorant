@@ -20,11 +20,15 @@ public class ModCreativeModeTabs {
             .icon(() -> new ItemStack(ModGuns.CLASSIC.get()))
             // Add default items to tab
             .displayItems((params, output) -> {
+                // Sidearms
                 output.accept(ModGuns.CLASSIC.get());
                 output.accept(ModGuns.SHORTY.get());
                 output.accept(ModGuns.FRENZY.get());
                 output.accept(ModGuns.GHOST.get());
                 output.accept(ModGuns.SHERIFF.get());
+
+                // SMGs
+                output.accept(ModGuns.STINGER.get());
             })
             .build()
     );
