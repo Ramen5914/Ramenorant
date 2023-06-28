@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
 
                 // SMGs
                 output.accept(ModGuns.STINGER.get());
+                output.accept(ModGuns.SPECTRE.get());
             })
             .build()
     );
