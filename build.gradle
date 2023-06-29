@@ -195,7 +195,7 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
-    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${geckolib_mc_version}:${geckolib_version}")
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${gl_minecraft_version}:${geckolib_version}")
 
     implementation fg.deobf("curse.maven:fancymenu-forge-367706:4600125")
     implementation fg.deobf("curse.maven:konkrete-410295:4583492")
