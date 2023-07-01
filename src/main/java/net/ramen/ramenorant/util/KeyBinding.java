@@ -16,6 +16,7 @@ public class KeyBinding {
     // Abilities:
     public static final KeyMapping ABILITY_1_KEY = new KeyMapping("key.ramenorant.ability_1", KeyConflictContext.IN_GAME,
             InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_C, RAMENORANT_ABILITIES_KEY_CATEGORY);
+
     public static final KeyMapping ABILITY_2_KEY = new KeyMapping("key.ramenorant.ability_2", KeyConflictContext.IN_GAME,
             InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_Q, RAMENORANT_ABILITIES_KEY_CATEGORY);
     public static final KeyMapping ABILITY_3_KEY = new KeyMapping("key.ramenorant.ability_3", KeyConflictContext.IN_GAME,
@@ -24,6 +25,12 @@ public class KeyBinding {
             InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_X, RAMENORANT_ABILITIES_KEY_CATEGORY);
 
     // Weapons:
+    public static final KeyMapping FIRE_KEY = new KeyMapping("key.ramenorant.fire", KeyConflictContext.IN_GAME,
+            InputConstants.Type.MOUSE, GLFW.GLFW_MOUSE_BUTTON_LEFT, RAMENORANT_WEAPONS_KEY_CATEGORY);
+
+    public static final KeyMapping ALT_FIRE_KEY = new KeyMapping("key.ramenorant.fire", KeyConflictContext.IN_GAME,
+            InputConstants.Type.MOUSE, GLFW.GLFW_MOUSE_BUTTON_RIGHT, RAMENORANT_WEAPONS_KEY_CATEGORY);
+
     public static final KeyMapping RELOAD_KEY = new KeyMapping("key.ramenorant.reload", KeyConflictContext.IN_GAME,
             InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_R, RAMENORANT_WEAPONS_KEY_CATEGORY);
 

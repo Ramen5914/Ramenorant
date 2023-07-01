@@ -1,0 +1,13 @@
+1 Grip
+2 Front Grip
+3 Barrel
+4 Barrel Mod
+5 Magazine
+6 Sights
+7 Stock
+8 Charging Handle
+9 Gun
+
+| |6| | | |8| | |
+|7|5|3|4| | | |9|
+| |1|2| | | | | |
