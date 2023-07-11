@@ -18,19 +18,19 @@ You can check out Nimsy here! ---> [YouTube](https://www.youtube.com/@Nimsy) | [
 
 This table shows the latest Minecraft Forge and VALORANT version:
 
-| Name            | Version                                                                                                                       |
-|-----------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Minecraft Forge | [1.20.1-47.0.35](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.0.35/forge-1.20.1-47.0.35-changelog.txt) |
-| VALORANT        | [7.0](https://playvalorant.com/en-gb/news/game-updates/valorant-patch-notes-7-0/)                                             |
+| Name            | Version                                                                                                                    |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------|
+| Minecraft Forge | [1.20.1-47.1.1](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.1.1/forge-1.20.1-47.1.1-changelog.txt) |
+| VALORANT        | [7.0](https://playvalorant.com/en-gb/news/game-updates/valorant-patch-notes-7-0/)                                          |
 
 ### Ramenorant Version
 
 This table shows the latest version of VALORANT and Forge that it includes:
 
-| Name            | Version                                                                                                                                    |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Minecraft Forge | [1.20.1-47.0.35 (Up to date)](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.0.35/forge-1.20.1-47.0.35-changelog.txt) |
-| VALORANT        | [7.0 (Up to date)](https://playvalorant.com/en-gb/news/game-updates/valorant-patch-notes-7-0/)                                             |
+| Name            | Version                                                                                                                                 |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Minecraft Forge | [1.20.1-47.1.1 (Up to date)](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.1.1/forge-1.20.1-47.1.1-changelog.txt) |
+| VALORANT        | [7.0 (Up to date)](https://playvalorant.com/en-gb/news/game-updates/valorant-patch-notes-7-0/)                                          |
 
 ---
 
