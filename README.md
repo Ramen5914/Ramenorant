@@ -51,7 +51,7 @@ Honestly, I've never made anything for Fabric mod loader so as of now there are 
 If any one wants to port it for me that'd be amazing, make sure to fork this repository and follow the license and guidelines.
 
 ### Are you going to make this compatible with Minecraft version "x"?
-This mod was started on version 1.19.4, and it will never be ported backwards.
+This mod was started on version 1.20.1, and it will never be ported backwards.
 That said, I do plan on keeping this mod updated to work with the latest version of minecraft.
 I am actively attending high school though, but I will try to keep releases timely.
 
